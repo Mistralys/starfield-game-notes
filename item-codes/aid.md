@@ -1,0 +1,55 @@
+# Aid Item Codes
+
+- Addichrone `29A851`
+- AddiJack `1F3E85`
+- Alien Genetic Material `C1F57`
+- Amp `29A856`
+- Analgesic Poultice `3D8B2`
+- Anchored Immobilizers `3D3AD`
+- Antibiotic Cocktail `3D3A9`
+- Antibiotic Injector `3D3AF`
+- Antibiotic Paste `299590`
+- Antibiotics `2F4436`
+- Aurora `2C5884`
+- Bandages `2F4459`
+- Battlestim `2A5024`
+- BattleUp `1F3E87`
+- Black Hole Heart `122EA8`
+- Boosted Injector `3D3AC`
+- Boudicca `29959F`
+- CQB-X `29A85E`
+- Dwarf Star Heart `299599`
+- Emergency Kit `2A9DE8`
+- Frostwolf `2C5885`
+- Giant Heart `29959A`
+- Heal Gel `3D3AB`
+- Heal Paste `2F445C`
+- Heart+ `29CAD9`
+- Hippolyta `2C5883`
+- Hypergiant Heart `122E9C`
+- Immobilizer `2F445B`
+- Infantry Alpha `29A85C`
+- Infused Bandages `3D3B0`
+- Junk Flush `143CB1`
+- Med Pack `ABF9`
+- O2 Shot `1F3E84`
+- Panacea `29A859`
+- Panopticon `2A5025`
+- Paramour `2C5881`
+- Penicillin X `29A84F`
+- Pick-Me-Up `255DCB`
+- Recon Stim `29A855`
+- RedAMP `1F3E86`
+- Red Trench `2C587F`
+- Repairing Immobilizer `224D61`
+- S.T.E.V.E. `139E4B`
+- Ship Spare Part `3FB19`
+- Snake Oil `29A850`
+- Squall `2A9DE7`
+- Subgiant Heart `122EB1`
+- Supermassive Black Heart `122EAD`
+- Synapse Alpha `2C5880`
+- Trauma Pack `29A847`
+- Unprocessed Aurora `C8721`
+- Whiteout `143CB2`
+- Zipper Bandages `3D3AA`
