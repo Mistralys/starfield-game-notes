@@ -2,6 +2,19 @@
 
 Starfield game notes, tips tricks and knowledge base
 
+## Game Concepts
+
+### Farming
+
+1. Get the Botany perk
+2. On a planet, scan a plant to 100%.
+3. Build an outpost on the same planet.
+4. Build the Greenhouse (in the Extractors tab)
+5. Connect required resources to the greenhouse (for ex. Water)
+
+> The existing Hydroponics Hab module is cosmetic only.
+> It serves no specific function. 
+
 ## Console Commands
 
 ### Increase max ships in fleet
