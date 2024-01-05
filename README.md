@@ -76,6 +76,9 @@ player.additem ABF9 20
 
 A selection of the most useful item codes:
 
+- Money `F`
+- Digipicks `A`
+
 - [Aid](item-codes/aid.md)
 - [Ammo](item-codes/ammo.md)
 - [Extractable resources](item-codes/extractable-resources.md)
