@@ -15,7 +15,30 @@ Starfield game notes, tips tricks and knowledge base
 > The existing Hydroponics Hab module is cosmetic only.
 > It serves no specific function. 
 
-## Console Commands
+### Selling and buying
+
+The following is a spreadsheet with all known shops and the type of 
+wares they sell, to quickly find places to sell and buy things.
+
+https://docs.google.com/spreadsheets/d/126SnzkduhmUHLUkY5SXfRyF6x9AmrTtTbe5SPMTeEtY/edit?usp=sharing
+
+#### Selling ships
+
+Took me a while to find: Go to a spaceport technician and ask him
+to show you the ships he has to sell. In this view, there is a key
+to switch into sell mode, like in other shops.
+
+#### Selling Contraband
+
+This is best in systems where there is no police. There are two
+good locations for this:
+
+- _The Den_ (Station, Wolf System)  
+  In the Trade Authority shop
+- _The Key_ (Station, Kryx System)  
+  Several shops available, but only during the Crimson Fleet mission arc
+
+## Useful Console Commands
 
 ### Increase max ships in fleet
 
