@@ -9,6 +9,11 @@ function pNL() : void
     echo PHP_EOL;
 }
 
+/**
+ * @param string $message
+ * @param scalar ...$args
+ * @return void
+ */
 function pLine(string $message, ...$args) : void
 {
     echo sprintf($message, ...$args).PHP_EOL;
