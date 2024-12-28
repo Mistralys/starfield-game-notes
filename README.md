@@ -6,11 +6,20 @@ Starfield game notes, tips tricks and knowledge base
 
 ### Slow Leveling
 
-How slow skills progress had me annoyed at first. I felt that some of the skill levels also had increasingly unrealistic requirements. However, once I finished a playthrough, I understood why. The game is built around the _New Game+_, as you continue to level up your character between playthroughs. That put a completely different perspective on things, and now I find myself enjoying the slower pace, focusing less on skills but still being happy when I can upgrade one.
+How slow skills progress initially had me annoyed. 
+I felt that some of the skill levels also had increasingly unrealistic requirements. 
+However, once I finished a playthrough, I understood why. 
+The game is built around the _New Game+_, as you continue to level up your character between playthroughs. 
+That put a completely different perspective on things, and now I find myself enjoying the slower pace, 
+focusing less on skills but still being happy when I can upgrade one.
 
 ### Learn to improve ships
 
-My first space battles were quite frustrating in the starter ship. Even after buying a better ship later on, I was still getting my butt handed back to me by pirates and the like. Later on when I finished the Free Rangers story arc, they gave me the ranger ship. That was a revelation: Suddenly I won battles, and could even go against bigger enemies. The problem was not my skill at dlying ships, but the fact that all my ships were really bad.
+My first space battles were quite frustrating in the starter ship. 
+Even after buying a better ship later on, I was still getting my butt handed back to me by pirates and the like. 
+Later on, when I finished the Free Rangers story arc, they gave me the ranger ship.
+That was a revelation: Suddenly I won battles, and could even go against bigger enemies. 
+The problem was not my skill at destroying ships, but the fact that all my ships were terrible.
 
 What I learned from this experience:
 
@@ -43,7 +52,7 @@ Mods can help:
 The following is a spreadsheet with all known shops and the type of 
 wares they sell, to quickly find places to sell and buy things.
 
-https://docs.google.com/spreadsheets/d/126SnzkduhmUHLUkY5SXfRyF6x9AmrTtTbe5SPMTeEtY/edit?usp=sharing
+[Shops and wares Spreadsheet][]
 
 #### Selling ships
 
@@ -150,7 +159,11 @@ A selection of the most useful item codes:
 - [Extractable resources](item-codes/extractable-resources.md)
 - [Crafting materials](item-codes/materials.md)
 
+## Resources
 
+- [How to use batch files][]
+
+[How to use batch files]: https://steamcommunity.com/sharedfiles/filedetails/?id=3035637950
 [StarUI - Ship Builder]: https://www.nexusmods.com/starfield/mods/6402
 [Remove Reactor Class Requirement]: https://www.nexusmods.com/starfield/mods/1482
-
+[Shops and wares spreadsheet]: https://docs.google.com/spreadsheets/d/126SnzkduhmUHLUkY5SXfRyF6x9AmrTtTbe5SPMTeEtY/edit?usp=sharing
