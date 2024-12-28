@@ -1,0 +1,40 @@
+{
+  "name": "mistralys/starfield-game-notes",
+  "description": "A collection of notes and data about the game Starfield",
+  "type": "documentation",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Sebastian Mordziol",
+      "email": "s.mordziol@mistralys.eu",
+      "homepage": "https://mistralys.com",
+      "role": "Lead"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "classmap": [
+      "src"
+    ],
+    "files": [
+      "src/Starfield/global-functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestClasses"
+    ]
+  },
+  "require": {
+    "php": "^8.2",
+    "mistralys/application-utils-core": ">=2.3.3",
+    "mistralys/application-utils-collections": ">=1.1.2",
+    "mistralys/application-localization": ">=1.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "phpstan/phpstan": ">=2.0.4",
+    "phpstan/phpstan-phpunit": ">=2.0.3"
+  }
+}
