@@ -70,10 +70,18 @@ class ItemEntry extends BaseEntryInfo
 
         preg_match('/([a-zA-Z0-9_\- ]+) \(([A-F0-9]+)\) \'(.+)\'/', $this->command, $matches);
 
+        $name = '';
+        $code = '';
+        $label = '';
+
         if(!empty($matches[1])) {
-            $this->itemName = trim($matches[1]);
-            $this->itemCode = trim($matches[2]);
-            $this->itemLabel = trim($matches[3]);
+            $name = $matches[1];
+            $code = $matches[2] ?? '';
+            $label = $matches[3] ?? '';
         }
+
+        $this->itemName = trim($name);
+        $this->itemCode = trim($code);
+        $this->itemLabel = trim($label);
     }
 }
