@@ -61,6 +61,26 @@ good locations for this:
 - _The Key_ (Station, Kryx System)  
   Several shops available, but only during the Crimson Fleet mission arc
 
+## Modding (Vortex)
+
+### Folder Junction: Juggling with data folders
+
+Starfield loads data (and by extension, mods) from both the game installation folder and the `Documents/My Games/Starfield` folders. 
+
+Because the game seems to prefer the My Games location to the game folder, **textures in particular will not be loaded** if installed into the game folder.
+
+Vortex handles this with the "Folder Junction" feature, found under Settings > Mods > Starfield settings. If you enable this, the My Games data folder will be replaced with a link to the game folder, forcing Starfield to load everything from there.
+
+### Repairing a Folder Junction 
+
+In my case, for some reason the link in the My Games data folder got broken: It is possible a game update overwrote the link.
+
+To solve the issue, I reset the folder link by doing the following:
+
+1. Turn off the Folder Junction setting in Vortex.
+2. If Vortex complains that it failed to turn it off, delete the `My Games\Starfield\data` folder manually.
+3. Enable the Folder Junction setting again.
+
 ## Useful Console Commands
 
 ### Increase max ships in fleet
