@@ -1,3 +1,6 @@
-
-convert-items/config.json
-convert-items/items.txt
+bin/config.json
+bin/items.txt
+/vendor/
+/tests/phpstan/result.txt
+/config.dist.php
+/.phpunit.result.cache
