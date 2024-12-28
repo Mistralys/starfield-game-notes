@@ -1,7 +1,9 @@
 parameters:
     level: 9
     bootstrapFiles:
-        - ../bootstrap.php
+        - ./constants.php
     paths:
         - ../../src
-        - ../CPMDBTests
+        - ../../bin
+        - ../TestClasses
+        - ../TestSuites
