@@ -4,3 +4,5 @@ bin/items.txt
 /tests/phpstan/result.txt
 /config.php
 /.phpunit.result.cache
+.idea/php-test-framework.xml
+.idea/phpunit.xml
