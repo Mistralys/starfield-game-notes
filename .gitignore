@@ -2,5 +2,5 @@ bin/config.json
 bin/items.txt
 /vendor/
 /tests/phpstan/result.txt
-/config.dist.php
+/config.php
 /.phpunit.result.cache
