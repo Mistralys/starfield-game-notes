@@ -10,14 +10,14 @@ require_once __DIR__.'/bootstrap.php';
 
 parseCommands();
 
-function parseCommands(?string $logFilePath=null) : void
+function parseCommands(?string $logFilePath=null, int $amount=10) : void
 {
     if(empty($logFilePath)) {
-        $logFilePath = GAME_FOLDER.'/Data/SFSE/Plugins/sfse_plugin_console.log';
+        $logFilePath = GAME_FOLDER.'/'.CONSOLE_OUTPUT_LOG_PATH;
     }
 
     $commandsFile = FileInfo::factory($logFilePath);
-    $outputFile = FileInfo::factory(GAME_FOLDER . '/bat/additem-commands.txt');
+    $outputFile = FileInfo::factory(GAME_FOLDER . '/'.BAT_SUBFOLDER_NAME.'/additem-commands.txt');
 
     $items = StarfieldConsole::parseCommandFile($commandsFile)->getItemEntries()->getAll();
 
@@ -32,8 +32,9 @@ function parseCommands(?string $logFilePath=null) : void
         pLine('Item [%s]: %s', $item->getItemCode(), $item->getItemLabel());
 
         $lines[] = sprintf(
-            "player.additem %s ; %s",
+            "player.additem %s %s; %s",
             $item->getItemCode(),
+            $amount,
             $item->getItemLabel()
         );
     }
@@ -44,6 +45,9 @@ function parseCommands(?string $logFilePath=null) : void
     pSeparator();
     pNL();
 
-    pLine('Import command:');
-    pLine('bat %s', $outputFile->getBaseName());
+    pLine('Saved to:');
+    pLine($outputFile->getPath());
+    pNL();
+    pLine('Console command:');
+    pLine('bat "%s/%s"', BAT_SUBFOLDER_NAME, $outputFile->getBaseName());
 }
