@@ -136,6 +136,25 @@ Increase walking and running speed permanently (in percent):
 player.modav speedmult 200
 ```
 
+### Skip to the unity
+
+When starting a NG+ game (New Game Plus), it's possible that the universe
+will not fit what you want. In my case, there were no constellation members,
+but I wanted to have them all with me. With the following command, you can
+skip directly to the unity:
+
+```
+coc MQUnity
+```
+
+### Unlock every power (maxed out)
+
+This command will unlock all available powers at the maximum level:
+
+```
+psb
+```
+
 ### Give an item
 
 This adds 20 med packs:
