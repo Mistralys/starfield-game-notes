@@ -1,0 +1,49 @@
+; ------------------------------------------------------------
+; WEAPON PROPERTIES
+; ------------------------------------------------------------
+
+; ------------------------------------------------------------
+; PROPERTY MODIFIERS
+;
+amod 28F442 ; Tier 2 "Calibrated"
+amod 28F443 ; Tier 3 "Refined"
+amod 28F444 ; Tier 4 "Advanced"
+amod 28F445 ; Tier 5 "Superior"
+
+; ------------------------------------------------------------
+; MODIFIER SLOT 1
+amod FF442 ; 10% damage against humans.
+amod FEA07 ; Deals double damage when gun bashing.
+amod F437E ; Does more damage the less armor one has.
+amod F428E ; Damage increases as health decreases.
+amod 1625EB ; +20% damage against robots.
+amod FFA3B ; Doubles the base magazine capacity.
+amod 15DD18 ; +30% damage against Aliens.
+amod EA117 ; Each consecutive hit deals more damage.
+amod F2013 ; Deals double damage to targets with full health.
+amod F7321 ; +30% damage while in space, and -15% damage while on a planet.
+
+; ------------------------------------------------------------
+; MODIFIER SLOT 2
+amod 8AB47 ; Randomly deals corrosive damage and reduces the targets' armor over 6 seconds.
+amod F2E39 ; Deals +30% damage on the next attack after hitting a target's limbs.
+amod EA0BA ; Volatile rounds that are designed to pack a bigger punch, but aren't as stable and can fail on occasion.
+amod 122F1C ; +15% damage while aiming.
+amod 7D728 ; Randomly deals incendiary damage.
+amod FEA49 ; Randomly applies a bleed effect to the target.
+amod FFA3C ; Chance that humans drop extra Med Packs on death.
+amod 319AEC ; Randomly deals poison damage and slows the target.
+amod FEA04 ; +25% increase in attack speed.
+amod E8D64 ; Small chance to stagger enemies.
+
+; ------------------------------------------------------------
+; MODIFIER SLOT 3
+amod FBD3C ; Small chance to knock down targets.
+amod FC884 ; Small chance to demoralize a target.
+amod FA8D6 ; Randomly switches to explosive rounds.
+amod FC8A4 ; Small chance to frenzy a target.
+amod F4CF0 ; Rounds fire in a shotgun-like spread.
+amod F4557 ; Break through even the strongest armor.
+amod 31C0C4 ; Every fourth shot fires two projectiles at once.
+amod 31C0C6 ; Rounds will sometimes emit electricity where they land that damages and slows nearby targets.
+amod FFA3D ; Premium build materials make this weapon light as a feather

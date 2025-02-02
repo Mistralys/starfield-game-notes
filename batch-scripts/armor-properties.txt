@@ -1,0 +1,43 @@
+; ------------------------------------------------------------
+; ARMOR PROPERTIES
+; ------------------------------------------------------------
+
+; ------------------------------------------------------------
+; PROPERTY MODIFIERS
+;
+; NOTE: Apply multiple times to further increase the property values.
+;
+amod 1C5AAD ; Increase Damage Reduction PHYS ENGY EM
+amod 1CFAFB ; Increase Damage Reduction THERM AIRB CORR RADIA
+
+; ------------------------------------------------------------
+; MODIFIER SLOT 1
+amod 13369E ; -15% PHYS damage from ranged weapons. Helmets: NO
+amod 13369C ; -15% ENGY damage. Helmets: YES
+amod 1336BE ; -15% damage from Human enemies.
+amod 133699 ; -15% incoming melee damage.
+amod 1336BC ; -15% damage from robotic enemies.
+amod 1336C1 ; Blend with the environment while sneaking and not moving.
+
+; ------------------------------------------------------------
+; MODIFIER SLOT 2
+amod 710FD ; -50% fall damage.
+amod 690AF ; +10% damage to scanned targets.
+amod 710FA ; +25 Airborne Resistance.
+amod C9A43 ; Automatically use a Med Pack when hit and health is below 25%, once every 60 seconds.
+amod 710F7 ; +25 Corrosive Resistance.
+amod 710F5 ; +25 Radiation Resistance.
+amod 710F6 ; +25 Thermal Resistance. Helmets: YES
+
+; ------------------------------------------------------------
+; MODIFIER SLOT 3
+amod 2EDE59 ; -10% incoming PHYS ENGY and EM damage. Helmets: YES
+amod 2C43DC ; Deals +25% damage on the next attack after hitting a target's head.
+amod 2983 ; 10% chance to ignite nearby attackers.
+amod 59AE8 ; 4% chance to reflect attacks.
+amod 2D01A2 ; Rifles do 10% more damage.
+amod 6029F ; 10% chance to stagger nearby attackers.
+amod 6029D ; 5% chance to disarm nearby attackers.
+amod 2C43DB ; +20% accuracy while firing on the move.
+amod BE540 ; 75% chance to reduce damage by 50% while standing still.
+
