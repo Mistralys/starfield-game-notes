@@ -32,37 +32,11 @@ to determine the item codes.
 5. Optional: Edit the generated bat file to remove any unwanted items.
 6. Open the console and execute the `bat` command shown.
 
-> NOTE: The console log file is typically located in the game install folder
-> under `Data/SFSE/Plugins/sfse_plugin_console.log`.
+> NOTE: To see the paths to all relevant files and folders, run
+> `php bin/show-paths.php`.
 
 ### Use a help command file
 
 Ideally, add a bat file that contains the help commands for the mods that you use.
 
-This is what I currently use:
-
-```
-; -----------------------------------------------------------------
-; ZoNE79's Clothing Pack
-; https://www.nexusmods.com/starfield/mods/11255
-help "BH_" 4 ARMO ; Bounty Hunter Outfit https://www.nexusmods.com/starfield/mods/7915
-help "GlowingEyes_" 4 ARMO ; Glowing Eyes https://www.nexusmods.com/starfield/mods/9044
-help "CyberOps " 4 ARMO ; Cyber Ops Outfit https://www.nexusmods.com/starfield/mods/8158
-help "Gadgets " 4 ARMO ; Starfield Gadgets https://www.nexusmods.com/starfield/mods/8112
-help "Robotics_" 4 ARMO ; Robotics Outfit https://www.nexusmods.com/starfield/mods/6632
-
-; -----------------------------------------------------------------
-; New Sarees
-; https://www.nexusmods.com/starfield/mods/8681
-help "Clothes_Dress_Sari" 4 ARMO 
-
-; -----------------------------------------------------------------
-; KZ's Aggregation of Scraps
-; https://www.nexusmods.com/starfield/mods/11471
-help "KZ_" 4 ARMO
-
-; -----------------------------------------------------------------
-; Female Nanosuit
-; https://www.nexusmods.com/starfield/mods/7161
-help "Nanosuit_" 4 ARMO
-```
+What I currently use is in the file [help-commands.txt](help-commands.txt).

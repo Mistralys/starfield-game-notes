@@ -1,0 +1,28 @@
+; -----------------------------------------------------------------
+; ZoNE79's Clothing Pack
+; https://www.nexusmods.com/starfield/mods/11255
+help "BH_" 4 ARMO ; Bounty Hunter Outfit https://www.nexusmods.com/starfield/mods/7915
+help "GlowingEyes_" 4 ARMO ; Glowing Eyes https://www.nexusmods.com/starfield/mods/9044
+help "CyberOps " 4 ARMO ; Cyber Ops Outfit https://www.nexusmods.com/starfield/mods/8158
+help "Gadgets " 4 ARMO ; Starfield Gadgets https://www.nexusmods.com/starfield/mods/8112
+help "Robotics_" 4 ARMO ; Robotics Outfit https://www.nexusmods.com/starfield/mods/6632
+
+; -----------------------------------------------------------------
+; New Sarees
+; https://www.nexusmods.com/starfield/mods/8681
+help "Clothes_Dress_Sari" 4 ARMO
+
+; -----------------------------------------------------------------
+; KZ's Aggregation of Scraps
+; https://www.nexusmods.com/starfield/mods/11471
+help "KZ_" 4 ARMO
+
+; -----------------------------------------------------------------
+; Female Nanosuit
+; https://www.nexusmods.com/starfield/mods/7161
+help "Nanosuit_" 4 ARMO
+
+; -----------------------------------------------------------------
+; Eit Clothiers Plus
+; https://www.nexusmods.com/starfield/mods/8473
+help "Eit" 4 ARMO
