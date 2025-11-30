@@ -10,7 +10,7 @@ require_once __DIR__.'/bootstrap.php';
 
 parseCommands();
 
-function parseCommands(?string $logFilePath=null, int $amount=10) : void
+function parseCommands(?string $logFilePath=null, int $amount=1) : void
 {
     if(empty($logFilePath)) {
         $logFilePath = GAME_FOLDER.'/'.CONSOLE_OUTPUT_LOG_PATH;
